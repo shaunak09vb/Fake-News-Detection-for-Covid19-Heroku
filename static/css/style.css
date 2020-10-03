@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+	
+}
+
+h1{
+	font: bold 50px Tahoma;
+	
+}
+
+
+header, section, footer, article, hgroup{
+	display:block;
+	
+}
+
+body{
+	text-align:;
+	background:#80ced6;
+	
+}
+
+#big_wrapper{
+	
+	
+	width:1660px;
+	height: 800px;
+	margin: 20px auto;
+	text-align:center;
+	background: #d5f4e6;
+	
+	
+}
+
+#top_header{
+	background:#fefbd8;
+	border: 1px #618685;
+	padding: 20;
+	
+	
+}
+
+#input_text{
+		
+	margin: 20px auto;
+	font: bold 14px Tahoma;
+	text-align:left;
+	padding:3px;
+	width: 1560px;
+	
+}
+
+#mytext1 { 
+	width: 100%; 
+	margin-bottom: 10px; 	
+	border: blue;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;	
+	border: 1px black;
+	border-radius: 4px;
+	
+}
+
+#mytext2 { 
+	width: 100%; 
+	margin-bottom: 10px; 	
+	border: blue;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	border: 1px black;
+	border-radius: 4px;
+	
+}
+
+
+
+
+#id_footer{
+	font: bold 14px Tahoma;
+	vertical-align: text-bottom;
+	postion: relative;
+}
+
+#bottom{
+	position: absolute;
+	bottom:10px;
+	left:20px;
+}
+
+#button_submit{
+  border: none;
+  color: black;
+  background: #fefbd8;
+  border: 3px black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: bold 16px Tahoma;
+  margin: 100px 2px;
+  cursor: pointer;
+}

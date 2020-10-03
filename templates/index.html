@@ -1,0 +1,159 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title> Fake News Classifier</title>
+	
+	<style>
+	*{
+	margin: 0px;
+	padding: 0px;
+	
+	
+}
+
+h1{
+	font: bold 50px Tahoma;
+	
+}
+
+
+header, section, footer, article, hgroup{
+	display:block;
+	
+}
+
+body{
+	text-align:;
+	background:#80ced6;
+	
+}
+
+#big_wrapper{
+	
+	
+	width:1660px;
+	height: 800px;
+	margin: 20px auto;
+	text-align:center;
+	background: #d5f4e6;
+
+	
+	
+}
+
+#top_header{
+	background:#fefbd8;
+	border: 1px #618685;
+	padding: 20;
+	
+	
+}
+
+#input_text{
+		
+	margin: 20px auto;
+	font: bold 14px Tahoma;
+	text-align:center;
+	padding:3px;
+	width: 1560px;
+	
+	
+}
+
+#mytext1 { 
+	width: 100%; 
+	margin-bottom: 10px; 	
+	border: blue;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;	
+	border: 1px black;
+	border-radius: 4px;
+	
+}
+
+#mytext2 { 
+	width: 100%; 
+	margin-bottom: 10px; 	
+	border: blue;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	border: 1px black;
+	border-radius: 4px;
+	
+}
+
+
+
+
+#id_footer{
+	font: bold 14px Tahoma;
+	vertical-align: text-bottom;
+	postion: relative;
+}
+
+#bottom{
+	position: absolute;
+	bottom:10px;
+	left:20px;
+}
+
+#button_submit{
+  border: none;
+  color: black;
+  background: #fefbd8;
+  border: 3px black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: bold 16px Tahoma;
+  margin: 100px 2px;
+  cursor: pointer;
+}
+	
+	
+	</style>
+
+
+</head>
+<body>
+	<div id="big_wrapper">
+		<header id="top_header">
+			<h1>FAKE NEWS CLASSIFIER !!<h1>
+		</header>
+		
+		<form id="input_text" action="{{ url_for('classify')}}" method="POST">
+		
+			<input type="text" name="news_title" placeholder="News Title" required="required" id="mytext1"/><br><br>
+		
+		
+			<input type="text" name="news_content" placeholder="News Content" required="required" id="mytext2" />
+		
+    		<button type="submit" id="button_submit">CLASSIFY</button>
+    		<br>
+    		<br>
+        	<h2>{{prediction_text}}<h2>
+    		
+    				
+		</form>
+    		
+		
+		
+		
+		<footer id="input_footer"><span id="bottom"> Copyright Shaunak Varudandi 2020 </span></footer>
+		
+		
+		
+	</div>
+	
+	
+</body>
+
+
+
+</html>
