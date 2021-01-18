@@ -1,3 +1,2 @@
 # Fake-News-Detection-for-Covid19-Heroku
-Fake News Classifier to Detect Covid-19 Disinformation deployed on cloud using Heroku.
-Website: https://fake-news-covid19.herokuapp.com/
+An end-to-end machine learning project that allows an individual to verify the news related to covid-19 and see for themselves if the news is real or fake.
