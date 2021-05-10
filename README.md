@@ -47,13 +47,13 @@ Coronavirus (COVID-19) is an infectious disease that has resulted in an ongoing 
 
 ## Website
 
-To run the hosted website, access the `app.py` file and execute:
+- To run the hosted website, access the `app.py` file and execute:
 
 `python3 app.py`
 
-The website will start on your local server which can be viewed in your desired browser. You can paste any news article that you came across in the text box and determine if the news is Genuine or Fake.
+- The website will start on your local server which can be viewed in your desired browser. You can paste any news article that you came across in the text box and determine if the news is Genuine or Fake.
 
-To understand the step-by-step approach undertaken for this project, you can view the Covid_19_FakeNewsClassifier.ipynb file via the following link: <a href='https://github.com/shaunak09vb/Fake-News-Detection-for-Covid19/blob/master/Covid_19_FakeNewsClassifier.ipynb'>Covid_19_FakeNewsClassifier.ipynb</a>.
+- To understand the step-by-step approach undertaken for this project, you can view the Covid_19_FakeNewsClassifier.ipynb file via the following link: <a href='https://github.com/shaunak09vb/Fake-News-Detection-for-Covid19/blob/master/Covid_19_FakeNewsClassifier.ipynb'>Covid_19_FakeNewsClassifier.ipynb</a>.
 
 ## Blog Link
 
