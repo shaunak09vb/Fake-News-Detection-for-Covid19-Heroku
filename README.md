@@ -57,7 +57,7 @@ Coronavirus (COVID-19) is an infectious disease that has resulted in an ongoing 
 
 ## Blog Link
 
-If you wish discover in detail, the steps taken by me for the implementation of the project. You can read my blog on <a href='https://towardsdatascience.com/fake-news-classifier-to-tackle-covid-19-disinformation-7a31e4296b83'>Medium</a>.
+If you wish discover in detail, the steps taken by me for the implementation of the project. You can read my blog on <a href='https://shaunakvarudandi.medium.com/fake-news-classifier-to-tackle-covid-19-disinformation-ii-116ed2eb44e4'>Medium</a>.
 
 ## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
