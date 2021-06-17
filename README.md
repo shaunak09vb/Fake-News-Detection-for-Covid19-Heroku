@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub release](https://img.shields.io/github/release/shaunak09vb/Fake-News-Detection-for-Covid19-Heroku?include_prereleases&sort=semver)](https://github.com/shaunak09vb/Fake-News-Detection-for-Covid19-Heroku/releases/)
 ![Python](https://img.shields.io/badge/python-v3.8.3+-blue.svg)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/shaunak09vb/Toxic-Comment-Classifier-AWS/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/shaunak09vb/Fake-News-Detection-for-Covid19-Heroku/issues)
 
 
 ## Introduction
